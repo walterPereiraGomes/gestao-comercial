@@ -1,0 +1,19 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/tests/connectionSchemas.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.0.10",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  }
+}
