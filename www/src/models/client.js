@@ -1,6 +1,6 @@
 const Mongoose = require('mongoose')
 
-const clientSchema = new Mongoose.Schema({
+const client = new Mongoose.Schema({
     name: {
         type: String,
         required: true
@@ -15,4 +15,4 @@ const clientSchema = new Mongoose.Schema({
     }
 })
 
-module.exports = Mongoose.model('client', clientSchema)
+module.exports = Mongoose.model('client', client)

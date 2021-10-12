@@ -5,7 +5,7 @@ mongo --host localhost -u walter -p senhaforte --authenticationDatabase admin --
 
 use commercial_management
 
-db.merchandise.insert({
+db.product.insert({
     name: 'Arroz 5kg',
     amount: 50,
     value: 10
