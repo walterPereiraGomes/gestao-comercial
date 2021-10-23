@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/tests/connectionSchemas.test.js"
+    "test": "mocha src/tests/connection.js src/tests/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "mongoose": "^6.0.10",
     "sequelize": "^6.6.5"
   },
